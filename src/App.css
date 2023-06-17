@@ -1,0 +1,158 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.wrapper{
+
+  display: flex;
+  width: 100%;
+  height: 100%;
+  row-gap: 30px;
+}
+
+.form{
+width: 85%;
+padding: 3px;
+ /* margin: 0px 3px; */
+ border-radius: 10px;
+ padding: 3rem;
+
+}
+
+.heading{
+  font-size: 2rem;
+ 
+  
+}
+
+
+
+
+@media screen and (max-width: 550px) {
+
+  .ne{
+    flex-wrap: wrap;
+  }
+
+
+}
+
+.ne{
+  display: flex;
+  column-gap:20px;
+}
+
+.education{
+  column-gap:20px;
+}
+
+.gap {
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  min-height: 100%;
+/* min-width: 100px; */
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(43, 86, 83, 0.8128501400560224) 61%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.container2 {
+  background-color: white;
+  /* min-width: 500px; */
+  width: 900px;
+  max-width: 1000px;
+  min-height: 900px;
+ border-radius: 3px;
+ display: flex;
+ flex-direction: column;
+ gap:50px;
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 1000px) {
+  .container2 {
+    max-width: 90%; /* Adjust the maximum width for smaller screens */
+  
+  }
+}
+
+.desig{
+  color: gray;
+  
+}
+
+.contact{
+  background-color: wheat;
+  padding: 8px 0;
+  color: rgb(19, 17, 17);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+@media (max-width: 550px) {
+ 
+  .e{
+   
+    font-size: 0.8rem;
+    
+  }
+}
+.gap2{
+  row-gap: 2rem;
+  column-gap: 3rem;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+}
+
+.e{
+  display: flex;
+  align-items: center;
+}
+
+.datet{
+  font-size: 0.9rem;
+}
+
+.gap3{
+gap: 20px;
+}
+
+.educw{
+  gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.skill{
+  background-color: rgb(238, 228, 228);
+  border-radius: 4px;
+  padding: 4px;
+  margin: 4px;
+  
+  /* display: flex; */
+}
+.skills{
+  flex-wrap: wrap;
+}
+
+.subs1{
+width: 40%;
+}
+
+.subs2{
+width: 30%;
+}
